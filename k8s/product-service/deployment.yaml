@@ -32,7 +32,8 @@ spec:
       containers:
         - name: product-service
           # IMAGE_TAG will be replaced by CI pipeline
-          image: us-central1-docker.pkg.dev/brilliant-tide-453616-r9/ecommerce-repo/product-service:latest
+          # change id after dev/
+          image: us-central1-docker.pkg.dev/deployment-488406/ecommerce-repo/product-service:latest
           imagePullPolicy: Always
           ports:
             - name: http
